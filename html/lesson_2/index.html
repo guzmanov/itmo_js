@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<!-- ITs a comment -->
-
 <html lang="ru">
   <head>
-    <title>GZMN page</title>
+    <title>Lesson 2.</title>
     <meta charset="utf-8">
   </head>
 
@@ -12,11 +10,36 @@
     </header>
 
     <main>
-      <div>
-        <label for="login">Введите логин</label>
-        <input type="text" id="login">
-        <label>Укажите Ваш возраст: <input type="number"></label>
-      </div>
+      <form method="post">
+        <table id="tab" border=4 align="center">
+        <caption>
+          Регистарция
+        </caption>
+        <tr>
+          <td><label for="login">Укажите Email:</label></td>
+          <td><input type="text" id="login"></td>
+        </tr>
+        <tr>
+          <td><label for="password">Укажите Пароль:</label></td>
+          <td><input type="text" id="password"></td>
+        </tr>
+        <tr>
+          <td><label for="age">Укажите ваш возраст:</label></td>
+          <td><input type="text" id="age"></td>
+        </tr>
+        <tr>
+          <td><label for="name">Имя:</label></td>
+          <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+          <td><label for="tel">Номер телефона:</label></td>
+          <td><input type="number" id="tel"></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Зарегестироваться"></td>
+        </tr>
+        </table>
+      </form>
     </main>
 
     <footer>

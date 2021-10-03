@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Lesson 2.</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <header>
+    </header>
+
+    <main>
+      <form method="post">
+        <table id="tab" border=4 align="center">
+        <caption>
+          Найти квартиру
+        </caption>
+        <tr>
+          <td><label for="dist">Укажите район :</label></td>
+          <td><select id="dist">
+                  <option value="admiral">Адмиралтейский</option>
+                  <option value="vaska">Василеостровский</option>
+                  <option value="petroga">Петроградский</option>
+                  <option value="centr">Центральный</option>
+                  <option value="viborg">Выборгский</option>
+                  <option value="nevsky">Невский</option>
+              </select></td>
+        </tr>
+        <tr>
+          <td><label for="metro">Укажите станцию метро:</label></td>
+          <td><select id="metro">
+                  <option value="metro1">петроградская</option>
+                  <option value="metro2">адмиралтейская</option>
+                  <option value="metro3">приморская</option>
+                  <option value="metro4">невский проспект</option>
+                  <option value="metro5">лиговский</option>
+                  <option value="metro6">лесная</option>
+                  <option value="metro7">выборгская</option>
+                  <option value="metro8">чернышевская</option>
+                  <option value="metro9">горьковская</option>
+                  <option value="metro10">черная речка</option>
+                  <option value="metro11">зенит</option>
+                  <option value="metro12">московская</option>
+              </select></td>
+        </tr>
+        <tr>
+          <td><label for="street">Укажите название улици:</label></td>
+          <td><input type="text" id="street"></td>
+        </tr>
+        <tr>
+          <td><label for="flat">Колличество комнат:</label></td>
+          <td><select id="flat">
+                  <option value="flat1">студия</option>
+                  <option value="flat2">1 комнт</option>
+                  <option value="flat3">2 комнт</option>
+              </select></td>
+        </tr>
+        <tr>
+          <td><label for="age">Год постройки:</label></td>
+          <td><input type="number" id="age"></td>
+        </tr>
+        <tr>
+          <td><label for="cost">Ценна ДО:</label></td>
+          <td><input type="number" id="cost"></td>
+        </tr>
+        <tr>
+          <td><label for="pl">Площадь кв/м (0 - 100):</label></td>
+          <td><input type="range" id="pl"><span>100 кв/м max</span></td>
+        </tr>
+        <tr>
+          <td><label for="remont">Ремонт:</label></td>
+          <td><input type="checkbox" name="ts"><span>Yes</span></td>
+        </tr>
+        <tr>
+          <td><label for="ter">Балкон / Терраса</label></td>
+          <td><input type="checkbox" name="ter"><span>Yes</span></td>
+        </tr>
+        <tr>
+          <td><label for="levl">Уровень дома:</label></td>
+          <td>
+            <input type="checkbox" name="levl"><span>Бизнес-класс</span><br>
+            <input type="checkbox" name="levl"><span>Премиум</span><br>
+            <input type="checkbox" name="levl"><span>Deluxe</span><br>
+            <input type="checkbox" name="levl"><span>Комфорт</span><br>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="floar">Этаж:</label></td>
+          <td>
+            <input type="checkbox" name="floar"><span>Не первый</span><br>
+            <input type="checkbox" name="floar"><span>Не последний</span><br>
+            <select id="floar">
+                    <option value="floar1">От</option>
+                    <option value="floar2">1</option>
+                    <option value="floar3">2</option>
+                    <option value="floar4">3</option>
+                    <option value="floar5">4</option>
+                    <option value="floar6">5</option>
+                </select>
+            <select id="floar">
+                    <option value="floar7">До</option>
+                    <option value="floar8">6</option>
+                    <option value="floar9">7</option>
+                    <option value="floar10">8</option>
+                    <option value="floar11">9</option>
+                    <option value="floar12">10</option>
+                </select>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="button" value="Найти"></td>
+        </tr>
+        </table>
+      </form>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>
