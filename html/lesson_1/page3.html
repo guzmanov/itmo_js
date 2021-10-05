@@ -4,11 +4,13 @@
     <title>Lesson 1. </title>
     <meta charset="utf-8">
     <link rel="icon" href="favicon.ico" type="image/png">
+    <link rel="stylesheet" href="css/index.css">
+
   </head>
 
   <body>
     <header>
-      <nav id="menu"> <!-- Навигация (меню)-->
+      <nav class="container" id="menu"> <!-- Навигация (меню)-->
         <a href="index.html">Главная</a>
         <a href="page1.html">Картинки</a>
         <a href="page2.html">Таблица</a>
@@ -17,7 +19,7 @@
     </header>
 
     <aside>
-      <ul> <!-- Граници списка -->
+      <ul class="test"> <!-- Граници списка -->
         <li><a href="index.html">Главная</a></li>
         <li>Ссылки
           <ul>
@@ -34,7 +36,21 @@
     </aside>
 
     <main>
+      <section>
+        <ul class="slider">
+          <li>
+            <img src="pic/car1.jpeg">
+          </li>
+          <li class="active">
+            <img src="pic/car2.jpeg">
 
+          </li>
+          <li>
+            <img src="pic/car3.jpeg">
+
+          </li>
+        </ul>
+      </section>
     </main>
 
 

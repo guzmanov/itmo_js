@@ -1,0 +1,57 @@
+/* ITs a comment */
+
+body {
+    background-color: gray;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+header {
+    background-color: darkgoldenrod;
+}
+
+#menu a {
+    color: indigo;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 3px solid transparent;
+}
+
+#menu a:hover {
+    border-bottom: 3px solid indigo;
+}
+
+.slider {
+    list-style-type: none;
+}
+
+.slider > li {
+    display: none;
+}
+
+.slider > li.active {
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+.to-menu {
+    padding: 20px;
+    background-color: peru;
+    border-radius: 6px;
+    text-decoration: none;
+    color: indigo;
+}
+
