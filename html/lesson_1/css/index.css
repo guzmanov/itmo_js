@@ -1,12 +1,22 @@
 /* ITs a comment */
+@import "flex-grid.css";
 
 body {
     background-color: gray;
 }
 
+.item {
+    border: 1px solid #311B92;
+    padding: 5px;
+    background-color: #039BE5;
+}
+
+.update {
+    margin-left: auto;
+}
+
 .container {
     max-width: 1280px;
-    margin: 0 auto;
 }
 
 img {
