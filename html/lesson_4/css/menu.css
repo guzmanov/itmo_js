@@ -1,0 +1,23 @@
+@import "flex-grid.css";
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto
+}
+.flex-direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+a {
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+}
+a.color {
+    background-color: rgb(191, 124, 204);
+}
+.vertical {
+    flex-direction: column;
+}

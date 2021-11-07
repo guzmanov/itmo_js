@@ -1,0 +1,109 @@
+@import "flex-grid.css";
+
+.container {
+    margin: 0;
+}
+body {
+    margin: 0;
+    max-width: 1200px;
+}
+.flex-direction {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(56, 35, 20);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.col-4 h2 {
+    justify-content: center;
+    display: flex;
+    padding: 10px 60px;
+    color:sandybrown;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+header .col-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-8 a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color:sandybrown;
+}
+aside {
+    padding: 5px;
+    background-color: rgb(240, 150, 123);
+    margin-left: 10px;
+}
+main {
+    margin: 0;
+}
+main > div {
+    margin: 0.5px;
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+.gap {
+    gap: 10px;
+}
+section {
+    background-color: rgb(235, 205, 179);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section>div {
+    color: rgb(56, 35, 20);
+}
+.link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(56, 35, 20);
+    color:sandybrown;
+    padding: 10px;
+}
+.img1 {
+    height: auto;
+    object-fit: cover;
+    padding: 5px;
+    background-color: rgb(235, 205, 179);
+}
+.block {
+    display: flex;
+    color: rgb(56, 35, 20);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 205, 179);
+}
+.part3 {
+    background-color: rgb(235, 205, 179);
+    padding: 5px;
+    gap: 5px;
+    align-items: flex-start;
+}
+.img2 {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.text {
+    color: rgb(56, 35, 20);
+    margin: 0;
+}
+.part4 {
+    background-color: rgb(235, 205, 179);
+    padding: 5px;
+    gap: 5px;
+    height: 50%;
+}
+footer {
+    padding: 5px;
+    color:sandybrown;
+    background-color: rgb(56, 35, 20);
+}
