@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+
+<section id="task">
+    <input type="text" v-model="userInput">
+    <!-- интерполяция текста -->
+    <p>1: {{ userInput }}</p>
+    <p>2: {{ userInput.length < 3 ? "Input is empty" : userInput}}</p>
+    <p>3: {{ userOutput }}</p>
+    <!-- интерпритация html -->
+    <p v-html="userOutputStrong"></p>
+</section>
+
+
+<script src="js/task.js"></script>
+</body>
+</html>

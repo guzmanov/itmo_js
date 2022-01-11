@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+
+<section id="app">
+    <h2>{{ book.title.toUpperCase() }}</h2>
+    <h2>{{ $customFilters.capitalize(book.author) }}</h2>
+    <ol>
+        <!-- <li><h3>{{ book.otherAuthors[0].toUpperCase() }}</h3></li>
+        <li><h3>{{ book.otherAuthors[1].toUpperCase() }}</h3></li> -->
+        <li v-for="auth in book.otherAuthors">{{ auth }}</li>
+    </ol>
+    <!-- привязка значения атрибутов -->
+    <img v-bind:src="book.cover">
+</section>
+
+<script src="js/task1.js"></script>
+</body>
+</html>

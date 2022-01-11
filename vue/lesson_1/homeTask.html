@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+
+<section id="app">
+    <div v-for="cat in cats">
+        <h1>Name: {{cat.name}}</h1>
+        <p>Age: {{cat.age}}</p>
+        <p>Color: {{cat.color}}</p>
+        <img v-bind:src="cats.img">
+        <a href="#">Подробнее</a>
+    </div>
+</section>
+
+
+<script src="js/homeTask.js"></script>
+</body>
+</html>
