@@ -1,4 +1,4 @@
 .DS_Store
 .idea/
-.node/
-.vue/
+node/
+vue/
